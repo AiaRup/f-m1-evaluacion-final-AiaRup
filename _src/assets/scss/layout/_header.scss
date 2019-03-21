@@ -42,12 +42,13 @@
     line-height: 1.31;
     width: 290px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    margin: 0 15px 10px;
+    margin: 0;
     text-transform: uppercase;
     font-family: $title-font;
   }
 
   .header__subtitle {
     font-size: 16px;
+    margin: 10px 0 45px;
   }
 }

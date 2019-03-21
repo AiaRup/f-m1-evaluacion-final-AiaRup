@@ -1,41 +1,33 @@
-.wrapper {
-  margin: 0 15px;
-}
-
 #main__first-section {
+  padding: 30px 0 45px;
   background-color: $color-white;
-  .wrapper {
-    padding: 30px 0 45px;
+  .first-section__title {
+    margin-bottom: 15px;
   }
-}
-
-.first-section__subtitle {
-  color: $color-lightBlue;
-  text-transform: capitalize;
-  font-size: 14px;
-  line-height: 2.14;
-  height: 30px;
-  margin: 0;
-}
-
-.first-section__title {
-  margin-bottom: 15px;
-}
-.second-section__title {
-  margin-bottom: 45px;
-}
-
-.first-section__paragraph {
-  color: $color-darkGrey;
-  font-size: 18px;
-  line-height: 1.67;
-  margin: 0 0 30px;
-}
-
-.btn-go {
-  background-color: $color-white;
-  border: 2px solid $color-orange;
-  color: $color-orange;
+  .first-section__subtitle {
+    color: $color-lightBlue;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 2.14;
+    height: 30px;
+    margin: 0;
+  }
+  .first-section__paragraph {
+    color: $color-darkGrey;
+    font-size: 18px;
+    line-height: 1.67;
+    margin: 0 0 30px;
+  }
+  .btn-go {
+    background-color: $color-white;
+    border: 2px solid $color-orange;
+    color: $color-orange;
+    transition: color ease 0.5s, background-color ease 1s;
+    &:hover {
+      background-color: lighten($color-orange, 10%);
+      color: $color-white;
+    }
+  }
 }
 
 #main__second-section {
@@ -44,29 +36,35 @@
   .wrapper {
     padding: 30px 0 60px;
   }
+  .second-section__title {
+    margin-bottom: 45px;
+  }
+  .btn-reasons {
+    color: $color-white;
+    background-color: $color-orange;
+    transition: color ease 0.5s, background-color ease 1s;
+    &:hover {
+      background-color: darken($color-white, 10%);
+      color: $color-orange;
+    }
+  }
 }
 
 .products {
   padding: 0 55px;
   .product {
     margin-bottom: 45px;
+    .product__title {
+      font-family: $title-font;
+      font-size: 18px;
+      line-height: 1.67;
+      margin: 0;
+    }
+
+    .product__details {
+      font-size: 18px;
+      line-height: 1.67;
+      margin: 0;
+    }
   }
-}
-
-.product__title {
-  font-family: $title-font;
-  font-size: 18px;
-  line-height: 1.67;
-  margin: 0;
-}
-
-.product__details {
-  font-size: 18px;
-  line-height: 1.67;
-  margin: 0;
-}
-
-.btn-reasons {
-  color: $color-white;
-  background-color: $color-orange;
 }
