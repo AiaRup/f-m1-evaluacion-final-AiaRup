@@ -39,6 +39,9 @@
   @media all and (min-width: 768px) {
     padding: 0 0 45px;
   }
+  @media all and (min-width: 1280px) {
+    padding: 0 0 13px;
+  }
 
   .header__title {
     font-size: 42px;
@@ -52,6 +55,12 @@
       font-size: 80px;
       max-width: 550px;
     }
+    @media all and (min-width: 1280px) {
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      font-size: 100px;
+      line-height: 1.32;
+      max-width: 750px;
+    }
   }
 
   .header__subtitle {
@@ -59,6 +68,10 @@
     margin: 10px 0 45px;
     @media all and (min-width: 768px) {
       margin: 20px 0 30px;
+      font-size: 24px;
+    }
+    @media all and (min-width: 1280px) {
+      margin: 0 0 30px;
       font-size: 24px;
     }
   }
