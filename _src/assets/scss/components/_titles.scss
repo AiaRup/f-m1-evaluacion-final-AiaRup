@@ -4,4 +4,8 @@
   text-transform: capitalize;
   line-height: 1.25;
   margin: 0;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.73;
+  }
 }

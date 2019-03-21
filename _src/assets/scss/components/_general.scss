@@ -15,5 +15,10 @@ body {
 }
 
 .wrapper {
-  margin: 0 15px;
+  padding: 0 15px;
+  height: 100%;
+  width: 100%;
+  @media all and (min-width: 768px) {
+    padding: 0 39px;
+  }
 }

@@ -30,25 +30,36 @@
 }
 
 .header__content {
-  padding: 0 15px 53px;
+  padding: 0 0 53px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  @media all and (min-width: 768px) {
+    padding: 0 0 45px;
+  }
 
   .header__title {
     font-size: 42px;
     line-height: 1.31;
-    width: 290px;
+    max-width: 290px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     margin: 0;
     text-transform: uppercase;
     font-family: $title-font;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+      max-width: 550px;
+    }
   }
 
   .header__subtitle {
     font-size: 16px;
     margin: 10px 0 45px;
+    @media all and (min-width: 768px) {
+      margin: 20px 0 30px;
+      font-size: 24px;
+    }
   }
 }
