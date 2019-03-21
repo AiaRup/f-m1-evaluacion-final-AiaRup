@@ -21,7 +21,6 @@
   margin: 0;
   border: 0;
   cursor: pointer;
-
   .menu-icon {
     width: 16px;
     height: 14px;
@@ -69,10 +68,10 @@
     @media all and (min-width: 768px) {
       margin: 20px 0 30px;
       font-size: 24px;
+      height: 32px;
     }
     @media all and (min-width: 1280px) {
       margin: 0 0 30px;
-      font-size: 24px;
     }
   }
 }

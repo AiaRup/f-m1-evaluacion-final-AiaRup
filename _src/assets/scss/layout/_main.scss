@@ -8,7 +8,7 @@
     padding: 60px 0;
   }
   .first-section__title {
-    margin-bottom: 15px;
+    @include title-section(15px);
     @media all and (min-width: 768px) {
       margin-bottom: 30px;
     }
@@ -60,14 +60,14 @@
     }
   }
   .second-section__title {
-    margin-bottom: 45px;
+    @include title-section(45px);
   }
   .btn-reasons {
     color: $color-white;
     background-color: $color-orange;
     transition: color ease 0.5s, background-color ease 1s;
     &:hover {
-      background-color: darken($color-white, 10%);
+      background-color: darken($color-white, 7%);
       color: $color-orange;
     }
   }
@@ -99,8 +99,6 @@
       margin: 0;
       @media all and (min-width: 768px) {
         margin-bottom: 14px;
-      }
-      @media all and (min-width: 1280px) {
         font-size: 24px;
         line-height: 1.25;
       }
@@ -110,7 +108,7 @@
       font-size: 18px;
       line-height: 1.67;
       margin: 0;
-      @media all and (min-width: 1280px) {
+      @media all and (min-width: 768px) {
         font-size: 20px;
         line-height: 1.5;
       }

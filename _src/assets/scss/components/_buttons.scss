@@ -6,9 +6,9 @@
   line-height: 45px;
   text-align: center;
   text-decoration: none;
-  .img-arrow {
-    vertical-align: middle;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
