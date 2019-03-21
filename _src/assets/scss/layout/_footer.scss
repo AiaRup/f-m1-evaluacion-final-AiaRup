@@ -5,6 +5,9 @@
   font-family: $content-font;
   text-align: center;
   position: relative;
+  @media all and (min-width: 768px) {
+    padding: 60px 0 45px;
+  }
 }
 
 .footer_list {
@@ -19,6 +22,9 @@
       text-transform: lowercase;
     }
   }
+  @media all and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .list__item {
@@ -29,7 +35,6 @@
 
 .heart-icon {
   color: $color-orange;
-  margin: 0 5px;
 }
 
 .arrow-footer {
@@ -38,4 +43,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.lists-container {
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.list-content {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.list-social-media {
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
