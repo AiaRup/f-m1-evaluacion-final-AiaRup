@@ -4,16 +4,35 @@
 
 #main__first-section {
   background-color: $color-white;
+  .wrapper {
+    padding: 30px 0 45px;
+  }
 }
 
 .first-section__subtitle {
+  color: $color-lightBlue;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 2.14;
+  height: 30px;
+  margin: 0;
 }
 
 .first-section__title {
+  font-family: $title-font;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 0 0 15px;
 }
 
 .first-section__paragraph {
+  color: $color-darkGrey;
+  font-size: 18px;
+  line-height: 1.67;
 }
 
-.first-section__button {
+.btn-go {
+  background-color: $color-white;
+  border: 2px solid $color-orange;
+  color: $color-orange;
 }
