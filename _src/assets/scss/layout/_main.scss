@@ -56,7 +56,7 @@
   }
   .wrapper {
     @media all and (min-width: 1280px) {
-      padding: 0 85px;
+      max-width: 1115px;
     }
   }
   .second-section__title {
@@ -79,12 +79,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-gap: 30px;
-    margin-bottom: 60px;
+    grid-gap: 28px;
     padding: 0;
+    margin-bottom: 60px;
   }
   @media all and (min-width: 1280px) {
-    grid-gap: 26.2px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
   }
 
   .product {

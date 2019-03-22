@@ -9,8 +9,8 @@
     padding: 45px 0;
   }
   .wrapper {
-    @media all and (min-width: 768px) {
-      padding: 0 370px;
+    @media all and (min-width: 1280px) {
+      max-width: 540px;
     }
   }
   .footer__arrow-link {
